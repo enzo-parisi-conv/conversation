@@ -112,7 +112,7 @@ input {
     }
     .login-box {
       margin: auto;
-      width: 80%;
+      width: 90%;
     }
 
     .btn-box {
@@ -121,7 +121,7 @@ input {
       height: 50px;
       border: 1px solid #48008b;
       background-color: rgb(107, 33, 156);
-      width:80%;
+      width:90%;
       font-size:20px;
       box-sizing: border-box;
     }
