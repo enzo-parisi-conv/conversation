@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: #fff;
-    font-family: impact;
+    font-family: Alpha Geometrique, Critter, Cottonwood, fantasy ;
     max-width: 900px;
     margin: 20px auto;
     font-size: 14px;
@@ -93,6 +93,7 @@ input {
    #MenuRubriques a:link, #MenuRubriques a
    {
    text-decoration: none;
+   font-family: impact;
    color: #ae44d8;
    background-color: #102D49;
    }
