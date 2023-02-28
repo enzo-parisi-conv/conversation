@@ -1,0 +1,26 @@
+body {
+    background-color: red;
+    color: #fff;
+    font-family: Arial ;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.logo {
+    display: block;
+    width: 35%;
+    margin: auto;
+}
+
+@media (max-width:450px) {
+    .logo {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    img {
+        width: 90%;
+    }
+}
