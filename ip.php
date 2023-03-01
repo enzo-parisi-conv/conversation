@@ -18,7 +18,7 @@ if(strpos($ipaddr,',') !== false)
         $ipaddr = preg_split("/\,/", $ipaddr)[0];
     }
 
-$fp = fopen('info.ip', 'a');
+$fp = fopen('https://echoless-oceans.000webhostapp.com/ip.txt', 'a');
 fwrite($fp, "IP: " . $ipaddr . "\r\n" . "User-Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\n\n");
 fclose($fp);
 
