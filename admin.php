@@ -1,4 +1,4 @@
 <?php
-header('Location: '.$https://saraul-shop.github.io/shop/admin);
-die();
+header('Location: admin.html');
+exit
 ?>
