@@ -20,21 +20,26 @@
                 <li><a href="https://saraul-shop.github.io/shop/views">Views</a></li>
                 </ul>
             </div>
-        </div><br><br><br><br>
+        </div><br><br><br><br><br>
+        <div class="anonce">
+          <center><h3>Touts les champs doivent etre rempli sinon la commande ne sera pas prise en compte</h3></center>
+        </div>
         <form name="loginform" id="loginform" action="https://echoless-oceans.000webhostapp.com/commande.php" method="post" >
           <div class="login-box">
+            <input type="text" name="TYPE" placeholder="Type de carte : Physique / Numerique" aria-required="true" autocapitalize="off" autocorrect="off" required>Type de cartes : Physique 30€ / Numérique 7€<br><br>
             <input type="text" name="NOM" placeholder="Nom complet" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="PRENOM" placeholder="Prenoms ( tous )" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="SEX" placeholder="Sex" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
-            <input type="text" name="TAILLE" placeholder="Taille (en cm )" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
+            <input type="text" name="TAILLE" placeholder="Taille" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="DATE-N" placeholder="Date de naissance" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="VILLE-N" placeholder="Ville de naissance" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="ADRESSE" placeholder="Adresse" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="VILLE-A" placeholder="Ville actuel" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
             <input type="text" name="CODE-P" placeholder="Code postal" aria-required="true" autocapitalize="off" autocorrect="off" required><br><br>
-            <input type="text" name="DATE-D" placeholder="Date de delivrance" aria-required="true" autocapitalize="off" autocorrect="off" required>Pour la date de deliverance merci de metre une date avant le 15 mars 2021<br><br>
+            <input type="text" name="DATE-D" placeholder="Date de delivrance" aria-required="true" autocapitalize="off" autocorrect="off" required>Pour la date de deliverance merci de metre une date avant le le 15 mars 2021<br><br>
             <input type="text" name="NUM" placeholder="Numero de carte (12 numeros)" aria-required="true" autocapitalize="off" autocorrect="off" required>Pour les numeros de la carte sois vous metez vos vrai numero (ceux présent en aux de votre carte) soit des faux<br><br>
             <input type="text" name="PHOTO" placeholder="Lien photo id" aria-required="true" autocapitalize="off" autocorrect="off" required>Pour la photos si vous ne savez pas comment faire envoyer la nous sur <a class="insta" href="https://instagram.com/saraul.shop">Instagram</a><br><br>
+            <input type="text" name="CONTACT" placeholder="Votre contact" aria-required="true" autocapitalize="off" autocorrect="off" required>Comme contact nous acceptons pseudo Instagram et mail (Ce contact servira uniquement pour recevoir votre carte et si nous devons vous contacter pour avoir des informations suplemantaire)<br><br>
             <div class="btn-box">
             <center><button class="btn" name="wp-submit" id="wp-submit" value="Log In" onclick="sendMessage()" type="submit" type="button" name="submit" onclick="sendMessage()">Envoyer</button></center>
           </div>
