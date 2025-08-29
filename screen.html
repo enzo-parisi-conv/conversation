@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie - PARISI ENZO BRUNO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4a90e2, #005bea);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img, .card video {
+      width: 100%;
+      display: block;
+    }
+    .caption {
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <p>Screen - PARISI ENZO BRUNO</p>
+</header>
+
+<section class="gallery">
+  <div class="card">
+    <img src="screen/photo_2025-08-29_22-50-00.jpg" alt="Photo 22:50:00">
+    <div class="caption">Photo - 22:50:00</div>
+  </div>
+
+  <div class="card">
+    <video controls>
+      <source src="screen/video_2025-08-29_22-50-05.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div class="caption">Vidéo - 22:50:05</div>
+  </div>
+
+  <div class="card">
+    <video controls>
+      <source src="screen/video_2025-08-29_22-52-22.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div class="caption">Vidéo - 22:52:22</div>
+  </div>
+
+  <div class="card">
+    <video controls>
+      <source src="screen/video_2025-08-29_22-52-33.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div class="caption">Vidéo - 22:52:33</div>
+  </div>
+
+  <div class="card">
+    <video controls>
+      <source src="screen/video_2025-08-29_22-52-38.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div class="caption">Vidéo - 22:52:38</div>
+  </div>
+</section>
+
+</body>
+</html>
